@@ -1,0 +1,13 @@
+Data Flow Diagram
+how data is processed by a system in terms of inputs and outputs, its focus is on the flow of information where data comes from, where it goes and how it gets stored.
+Two types : 1. Yourdon and coad = for system analysis and design
+(processes are rounded)
+2. Gane and sarson = information systems (processes are squares/rectangles)
+Process : transforms incoming data flow into outgoing data flow (circle/oval)
+Datastore : repositories of data in the system (rectangle)
+Data flow : pipelines through which packets of information flow (arrow)
+External entity : objects outside the system with which the system communicates (rectangle)
+Rules :
+1. a process can connect to another process/external entity/datastore
+2. two external entity cannot communicate with each other, same with datastore
+3. external entity cannot directly communicate with datastore

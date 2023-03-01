@@ -1,0 +1,14 @@
+ER Diagram
+Rectangle : entity
+Elipse : attribute
+Diamonds : relationship
+Double Diamonds : identifying relationship
+Underline : primary key
+Lines : links betn attribute and entity
+No arrow : manyTomany
+Double arrow: onetoone
+Single arrow: manytoone
+DOuble elipse : multivalue attribute eg: a person can have multiple mb no
+Dashed ellipse : derived attribute eg: using dob, a person's age can be found so age will be inside dashed ellipse
+Double lines : total participation
+Double rectangle : weak entity (will not have prim key but can have partial key)

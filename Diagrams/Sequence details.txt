@@ -1,0 +1,17 @@
+Sequence diagram
+are type of UML diagram that show how objects in a system or classes within code interact with each other.
+Particularly these diagrams show interactions in the order they take place in short they show the sequence of events
+Actors : are always outside the system
+Objects : represented by rectangle
+Lifelines : are vertical dashed lines that show the existence of an object or actor over time
+Messages : show the information being sent between objects, represented by solid line, this message isn't reply to any request
+eg: insert card ---> atm
+request pin <--- atm
+Return message : represeneted by dashed lines (recieving object baack to requesting object) in short validation
+eg: verify card ---> bank server
+card ok <--- bank server
+Alternative frame : symbolizes choice between two or more message sequence
+eg : card is valid
+card is not valid
+Activation boxes : when and how long objects are active and idle
+Note: actors are external hence they dont need activation boxes

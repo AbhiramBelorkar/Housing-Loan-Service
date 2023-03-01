@@ -1,0 +1,18 @@
+UML Use case diagram
+Systems = website, software component, business process, application etc, represented by rectangle and put name on top, anything within in the rectangle happens within the app/website/software.
+Actors = someone or somethingthat uses our system to achieve goal , actors are always put outside the rectangle eg: Person, organization, another system, external device, two types: primary and secondary actors
+Primary actor: a person who initiates app, on the left side of rectangle eg: customer
+Secondary actor: more Reactionary, on the right side of rectngle eg: Bank
+Use case = represnts an action that accomplishes some sort of task within the system, in short what our system does, put inside the rectangle cz the actions will occur within the app/system. eg: login, check balance, transfer funds, make payments
+Relationship = the actor will interact with use cases hence representing relations i.e association/include/extend/generalization
+Include : 1. Base use case 2. Include use case
+whenever a base use case is executed at same time include use  case should also excuted, drawn relationship by dashed lines eg: login(base class) verify password(include base clas)
+Extend : 1. base use case 2. extend use case
+when base use case is executed than at sometimes extend use case will execute based on some criteria, but not everytime, drawn by dashed line from extend to base eg: login(base) display login error (extend)
+Generalization : inheritance, 
+eg:
+1. Make payment (general use case)
+pay from checking and pay from savings (specialized use case)
+2. Customer (general use case)
+new customer and existing customer (specialized use case)
+
