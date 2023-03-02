@@ -35,7 +35,15 @@ public class Profession {
 	@Lob
 	private byte[] professionsalaryslips;
 
-
+//	{
+//		"professionid":0,
+//		"professiontype":"employeed",
+//		"professionsalary":8080,
+//		"professionsalaryType":"sadas",
+//		"professionworkingperiod":"8yrs",
+//		"professionDesignation":"sdasda"
+//	}
+	
 }
 
 
